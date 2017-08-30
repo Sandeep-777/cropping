@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+	<title>test</title>
+	<meta charset="UTF-8" />
+	<meta name="" content="Basic web dev" />
+	<link rel="stylesheet"; href="css/main.css" />
+	<script src="libs/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<div id="input-container">
+		<input type='file' name='img' size='65' id='uploadimage' />
+		<div id='btn-div'>
+			<button id='filter-btn'>Filter</button>
+			<button id='restore-btn'>Restore Original</button>
+		</div>
+	</div>
+	<div id='distortion-div'>
+		<button id='distort-btn'>Scissors</button>
+		<button id='seed-btn'>seed</button>
+		<button id='dest-btn'>dest</button>
+	</div>
+	<div id="canvas-container">
+		<canvas id="myCanvas" width="800" height="500"
+			style="border:1px solid #000000;">
+		</canvas>
+		<canvas id="myCanvas2" width="800" height="500"
+			style="border:1px solid #000000;">
+		</canvas>
+	</div>
+	<script src="js/main.js"></script>
+</body>
